@@ -22,7 +22,7 @@ function definition_init() {
 		'show_ui'           => true,
 		'show_in_nav_menus' => true,
 		'supports'          => array( 'title', 'editor' ),
-		'has_archive'       => true,
+		'has_archive'       => false,
 		'rewrite'           => array( 'slug' => 'glossary' ),
 		'query_var'         => true,
 		'menu_icon'         => 'dashicons-book-alt',
